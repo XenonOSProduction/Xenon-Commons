@@ -1,10 +1,14 @@
 plugins {
-    alias(libs.plugins.androidLibrary)
-    alias(libs.plugins.kotlinAndroid)
+    id("com.android.library")
+    id("org.jetbrains.kotlin.android")
+    id("maven-publish")
 }
 
+group = "com.xenon.commons"
+version = "1.0"
+
 android {
-    namespace = "com.commons.accespoint.xenon"
+    namespace = "com.xenon.commons.accesspoint"
     compileSdk = 34
 
     defaultConfig {
@@ -12,6 +16,14 @@ android {
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles("consumer-rules.pro")
+    }
+
+    android {
+        publishing {
+            singleVariant("release") {
+                withSourcesJar()
+            }
+        }
     }
 
     buildTypes {
@@ -43,4 +55,24 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.test.ext.junit)
     androidTestImplementation(libs.espresso.core)
+}
+
+publishing {
+    publications {
+        register<MavenPublication>("release") {
+            groupId = "com.xenon.commons"
+            artifactId = "accesspoint"
+            version = "1.0"
+
+            afterEvaluate {
+                from(components["release"])
+            }
+        }
+    }
+    repositories {
+        maven {
+            name = "myrepo"
+            url = uri("${project.buildDir}/repo")
+        }
+    }
 }

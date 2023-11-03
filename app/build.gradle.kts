@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.commons.xenon"
+    namespace = "com.xenon.commons"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.commons.xenon"
+        applicationId = "com.xenon.commons"
         minSdk = 33
         targetSdk = 34
         versionCode = 1

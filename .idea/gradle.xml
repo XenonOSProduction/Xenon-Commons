@@ -4,8 +4,10 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleJvm" value="#GRADLE_LOCAL_JAVA_HOME" />
+        <option name="gradleHome" value="$USER_HOME$/scoop/apps/gradle/current" />
+        <option name="gradleJvm" value="temurin-19" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
