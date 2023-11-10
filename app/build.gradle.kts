@@ -38,6 +38,11 @@ android {
     }
 }
 
+repositories {
+
+    maven ("https://jitpack.io")
+}
+
 dependencies {
 
     implementation(libs.core.ktx)
@@ -48,7 +53,7 @@ dependencies {
     implementation(libs.navigation.ui.ktx)
     implementation(libs.androidx.foundation.android)
     implementation(libs.androidx.material3)
-    implementation(project(":accesspoint"))
+    implementation("com.github.Dinico414:Xenon-Commons:1.0")
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.test.ext.junit)
     androidTestImplementation(libs.espresso.core)
