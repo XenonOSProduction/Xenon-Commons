@@ -1,5 +1,6 @@
 package com.xenon.commons.accesspoint
 
+import androidx.appcompat.app.AppCompatActivity
 import kotlin.math.pow
 import kotlin.math.sqrt
 

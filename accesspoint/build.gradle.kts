@@ -1,3 +1,5 @@
+import com.android.build.gradle.tasks.SourceJarTask
+
 plugins {
     id("com.android.library")
     id("org.jetbrains.kotlin.android")
@@ -5,14 +7,14 @@ plugins {
 }
 
 group = "com.xenon.commons"
-version = "1.0"
+version = "1.0.0"
 
 android {
     namespace = "com.xenon.commons.accesspoint"
     compileSdk = 34
 
     defaultConfig {
-        minSdk = 33
+        minSdk = 32
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles("consumer-rules.pro")
@@ -58,21 +60,24 @@ dependencies {
 }
 
 publishing {
-    publications {
-        register<MavenPublication>("release") {
-            groupId = "com.xenon.commons"
-            artifactId = "accesspoint"
-            version = "1.0"
-
-            afterEvaluate {
-                from(components["release"])
+    repositories {
+        maven {
+            name = "arcverseRepository"
+            url = uri("https://repo.arcver.se/private")
+            credentials(PasswordCredentials::class)
+            authentication {
+                create<BasicAuthentication>("basic")
             }
         }
     }
-    repositories {
-        maven {
-            name = "myrepo"
-            url = uri("${project.buildDir}/repo")
+    publications {
+        create<MavenPublication>("release") {
+            groupId = "com.xenon.commons"
+            artifactId = "accesspoint"
+            version = project.version.toString()
+            afterEvaluate {
+                from(components["release"])
+            }
         }
     }
 }
