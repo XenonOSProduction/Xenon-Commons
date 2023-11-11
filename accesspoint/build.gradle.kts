@@ -1,5 +1,3 @@
-import com.android.build.gradle.tasks.SourceJarTask
-
 plugins {
     id("com.android.library")
     id("org.jetbrains.kotlin.android")
@@ -7,7 +5,7 @@ plugins {
 }
 
 group = "com.xenon.commons"
-version = "1.0.1"
+version = "1.0.2"
 
 android {
     namespace = "com.xenon.commons.accesspoint"
