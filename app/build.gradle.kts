@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId = "com.xenon.commons"
-        minSdk = 33
+        minSdk = 32
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -42,7 +42,7 @@ repositories {
 }
 
 dependencies {
-    implementation("com.xenon.commons:accesspoint:1.0.0")
+    implementation(libs.accesspoint)
     implementation(libs.core.ktx)
     implementation(libs.appcompat)
     implementation(libs.material)
