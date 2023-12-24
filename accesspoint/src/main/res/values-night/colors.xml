@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+
+    <color name="delete_red">#800000</color>
+    <color name="icon">#dedede</color>
+    <color name="checkbox" tools:ignore="NewApi">@android:color/system_on_surface_dark</color>
+
+    <color name="primary">@android:color/system_accent1_200</color>
+    <color name="primaryContainer" tools:ignore="NewApi">
+        @android:color/system_primary_container_dark
+    </color>
+    <color name="onPrimaryContainer" tools:ignore="NewApi">
+        @android:color/system_on_primary_container_dark
+    </color>
+
+    <color name="secondary">@android:color/system_accent3_400</color>
+    <color name="secondaryContainer" tools:ignore="NewApi">
+        @android:color/system_secondary_container_dark
+    </color>
+
+    <color name="textOnPrimary">@android:color/primary_text_dark</color>
+
+    <color name="surface">@android:color/system_neutral1_800</color>
+    <color name="surfaceContainer" tools:ignore="NewApi">
+        @android:color/system_surface_container_dark
+    </color>
+    <color name="surfaceInvert">@android:color/system_neutral1_200</color>
+    <color name="onSurface" tools:ignore="NewApi">@android:color/system_on_surface_dark</color>
+
+    <color name="onSurfaceVariant" tools:ignore="NewApi">
+        @android:color/system_on_surface_variant_dark
+    </color>
+</resources>
