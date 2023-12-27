@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
 
-    <color name="delete_red">#800000</color>
+    <color name="delete_red">#ff4444</color>
     <color name="icon">#dedede</color>
     <color name="checkbox" tools:ignore="NewApi">@android:color/system_on_surface_dark</color>
 
