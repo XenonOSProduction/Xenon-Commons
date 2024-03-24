@@ -2,56 +2,50 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
 
     <color name="delete_red">#aa4444</color>
-    <color name="icon">#181818</color>
-    <color name="checkbox" >#191c1d</color>
-
-<!--    <color name="primary">@android:color/system_accent1_400</color>-->
-    <color name="primaryContainer" >
-        #b0ecff
-    </color>
-    <color name="onPrimaryContainer" >
-        #001f27
-    </color>
-
-    <color name="secondary">#00639b</color>
-    <color name="secondaryContainer" >
-        #cee5ff
-    </color>
+    <color name="icon">@color/onSurface</color>
+    <color name="checkbox">@color/onSurface</color>
+    <color name="transparent">#00000000</color>
 
     <color name="textOnPrimary">@android:color/primary_text_light</color>
     <color name="textOnPrimaryInvert">@android:color/primary_text_dark</color>
 
-<!--    <color name="surface">@android:color/system_neutral1_200</color>-->
-    <color name="surfaceContainer" >
-        #cee5ff
-    </color>
-    <color name="surfaceInvert">@android:color/system_neutral1_800</color>
-<!--    <color name="onSurface" >@android:color/system_on_surface_light</color>-->
-
-<!--    <color name="onSurfaceVariant" >-->
-<!--        @android:color/system_on_surface_variant_light-->
-<!--    </color>-->
+    <color name="surfaceBright">#fdfdfd</color>
+    <color name="surfaceDim">#dddddd</color>
+    <color name="surfaceContainer">#f1f1f1</color>
+    <color name="surfaceContainerLow">#f7f7f7</color>
+    <color name="surfaceContainerLowest">#FFFFFF</color>
+    <color name="surfaceContainerHigh">#ececec</color>
+    <color name="surfaceContainerHighest">#e6e6e6</color>
 
 
-    <color name="primary" >#00687c</color>
-    <color name="error" >#ba1a1a</color>
-    <color name="onError" >#ffffff</color>
-    <color name="errorContainer" >#ffdad6</color>
-    <color name="onErrorContainer" >#410002</color>
-    <color name="outline" >#70787c</color>
-    <color name="outlineVariant" >#40484b</color>
-    <color name="onBackground" >#191c1d</color>
-    <color name="surface" >#fbfcfe</color>
-    <color name="onSurface" >#191c1d</color>
-    <color name="surfaceVariant" >#dbe4e7</color>
-    <color name="onSurfaceVariant" >#40484b</color>
-    <color name="surfaceInverse" >#191c1d</color>
-    <color name="onSurfaceInverse" >#e1e3e4</color>
-    <color name="surfaceBright" >#cee5ff</color>
-    <color name="surfaceDim" >#cee5ff</color>
-<!--    <color name="surfaceContainer" >@android:color/system_surface_container_light</color>-->
-    <color name="surfaceContainerLow" >#cee5ff</color>
-    <color name="surfaceContainerLowest" >#cee5ff</color>
-    <color name="surfaceContainerHigh" >#cee5ff</color>
-    <color name="surfaceContainerHighest">#cee5ff</color>
+    <color name="primary">@color/material_dynamic_primary40</color>
+    <color name="onPrimary">@color/material_dynamic_primary100</color>
+    <color name="primaryContainer">@color/material_dynamic_primary90</color>
+    <color name="onPrimaryContainer">@color/material_dynamic_primary10</color>
+    <color name="secondary">@color/material_dynamic_secondary40</color>
+    <color name="onSecondary">@color/material_dynamic_secondary100</color>
+    <color name="secondaryContainer">@color/material_dynamic_secondary90</color>
+    <color name="onSecondaryContainer">@color/material_dynamic_secondary10</color>
+    <color name="tertiary">@color/material_dynamic_tertiary40</color>
+    <color name="onTertiary">@color/material_dynamic_tertiary100</color>
+    <color name="tertiaryContainer">@color/material_dynamic_tertiary90</color>
+    <color name="onTertiaryContainer">@color/material_dynamic_tertiary10</color>
+    <color name="error">#ba1a1a</color>
+    <color name="errorContainer">#ffdad6</color>
+    <color name="onError">#ffffff</color>
+    <color name="onErrorContainer">#410002</color>
+    <color name="background">@color/material_dynamic_primary99</color>
+    <color name="onBackground">@color/material_dynamic_neutral10</color>
+    <color name="surface">@color/material_dynamic_primary90</color>
+    <color name="onSurface">@color/material_dynamic_neutral10</color>
+    <color name="surfaceVariant">@color/material_dynamic_neutral_variant90</color>
+    <color name="onSurfaceVariant">@color/material_dynamic_neutral_variant30</color>
+    <color name="outline">@color/material_dynamic_neutral_variant50</color>
+    <color name="inverseOnSurface">@color/material_dynamic_neutral95</color>
+    <color name="inverseSurface">@color/material_dynamic_neutral20</color>
+    <color name="inversePrimary">@color/material_dynamic_primary80</color>
+    <color name="shadow">@color/material_dynamic_primary0</color>
+    <color name="surfaceTint">@color/material_dynamic_primary40</color>
+    <color name="outlineVariant">@color/material_dynamic_neutral_variant80</color>
+    <color name="scrim">@color/material_dynamic_primary0</color>
 </resources>

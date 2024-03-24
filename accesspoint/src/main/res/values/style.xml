@@ -11,7 +11,7 @@
         <item name="android:textSize">45sp</item>
     </style>
 
-    <style name="FloatingBottomSheetDialogTheme">
+    <style name="XenonFloatingBottomSheetDialogTheme">
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:colorBackground">@android:color/transparent</item>
         <item name="android:backgroundDimEnabled">true</item>
@@ -23,7 +23,8 @@
         <item name="android:windowContentOverlay">@null</item>
     </style>
 
-    <style name="MyTimePickerStyle" parent="ThemeOverlay.Material3.MaterialTimePicker">
+    <style name="XenonTimePickerStyle" parent="ThemeOverlay.Material3.MaterialTimePicker">
+        <item name="android:backgroundTint">@color/surfaceContainer</item>
         <item name="colorSurface">@color/surface</item>
         <item name="colorOnSurfaceVariant">@color/onSurfaceVariant</item>
         <item name="colorOnSurface">@color/onSurface</item>
@@ -33,9 +34,9 @@
     </style>
 
     <style name="XenonInputFilledBox" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
-        <item name="android:elevation">2dp</item>
+        <item name="android:elevation">0dp</item>
         <item name="boxStrokeWidth">0dp</item>
-        <item name="android:backgroundTint">@color/primaryContainer</item>
+        <item name="android:backgroundTint">@color/textfield_color</item>
         <item name="boxStrokeColor">@color/primary</item>
         <item name="hintTextColor">@color/primary</item>
         <item name="android:textColorHint">@color/primary</item>
