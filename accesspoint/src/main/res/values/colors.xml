@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
 
-    <color name="delete_red">#aa4444</color>
+    <color name="delete_red">@color/error</color>
     <color name="icon">@color/onSurface</color>
     <color name="checkbox">@color/onSurface</color>
     <color name="transparent">#00000000</color>
@@ -48,4 +48,6 @@
     <color name="surfaceTint">@color/material_dynamic_primary40</color>
     <color name="outlineVariant">@color/material_dynamic_neutral_variant80</color>
     <color name="scrim">@color/material_dynamic_primary0</color>
+
+    <color name="windowBackground">@color/surfaceDim</color>
 </resources>
