@@ -1,6 +1,6 @@
 [versions]
-accesspoint = "1.0.5-1"
-agp = "8.5.1"
+accesspoint = "1.0.6"
+agp = "8.5.2"
 kotlin = "1.9.10"
 core-ktx = "1.13.1"
 junit = "4.13.2"
@@ -13,6 +13,8 @@ navigation-fragment-ktx = "2.7.7"
 navigation-ui-ktx = "2.7.7"
 foundation-android = "1.6.8"
 material3 = "1.2.1"
+ui-graphics-android = "1.6.8"
+material3-android = "1.2.1"
 
 [libraries]
 accesspoint = { module = "com.xenon.commons:accesspoint", version.ref = "accesspoint" }
@@ -27,6 +29,8 @@ navigation-fragment-ktx = { group = "androidx.navigation", name = "navigation-fr
 navigation-ui-ktx = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigation-ui-ktx" }
 androidx-foundation-android = { group = "androidx.compose.foundation", name = "foundation-android", version.ref = "foundation-android" }
 androidx-material3 = { group = "androidx.compose.material3", name = "material3", version.ref = "material3" }
+androidx-ui-graphics-android = { group = "androidx.compose.ui", name = "ui-graphics-android", version.ref = "ui-graphics-android" }
+androidx-material3-android = { group = "androidx.compose.material3", name = "material3-android", version.ref = "material3-android" }
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
