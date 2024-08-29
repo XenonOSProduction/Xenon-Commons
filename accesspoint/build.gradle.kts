@@ -5,11 +5,11 @@ plugins {
 }
 
 group = "com.xenon.commons"
-version = "1.0.6"
+version = "1.0.6.2"
 
 android {
     namespace = "com.xenon.commons.accesspoint"
-    compileSdk = 35
+    compileSdk = 34
 
     defaultConfig {
         minSdk = 31
