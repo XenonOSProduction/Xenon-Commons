@@ -23,6 +23,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Xenon Commons"
 include(":app")
-include(":app")
-include(":app")
 include(":accesspoint")

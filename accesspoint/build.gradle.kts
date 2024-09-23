@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "com.xenon.commons"
-version = "1.0.6.2"
+version = "1.0.6.2-2"
 
 android {
     namespace = "com.xenon.commons.accesspoint"
@@ -36,8 +36,8 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+        sourceCompatibility = JavaVersion.VERSION_21
+        targetCompatibility = JavaVersion.VERSION_21
     }
     kotlinOptions {
         jvmTarget = "1.8"
@@ -49,11 +49,11 @@ android {
 
 dependencies {
 
-    implementation(libs.core.ktx)
-    implementation(libs.appcompat)
-    implementation(libs.material)
-    implementation(libs.androidx.ui.graphics.android)
-    implementation(libs.androidx.material3.android)
+    compileOnly(libs.core.ktx)
+    compileOnly(libs.appcompat)
+    compileOnly(libs.material)
+    compileOnly(libs.androidx.ui.graphics.android)
+    compileOnly(libs.androidx.material3.android)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.test.ext.junit)
     androidTestImplementation(libs.espresso.core)
