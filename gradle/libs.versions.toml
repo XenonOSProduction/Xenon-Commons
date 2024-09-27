@@ -1,5 +1,5 @@
 [versions]
-accesspoint = "1.0.6.2-5"
+accesspoint = "1.0.6.2-6.5"
 agp = "8.6.1"
 kotlin = "1.9.24"
 core-ktx = "1.13.1"
