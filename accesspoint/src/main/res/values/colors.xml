@@ -12,10 +12,16 @@
     <color name="surfaceBright">@color/m3_sys_color_dynamic_light_surface_bright</color>
     <color name="surfaceDim">@color/m3_sys_color_dynamic_light_surface_dim</color>
     <color name="surfaceContainer">@color/m3_sys_color_dynamic_light_surface_container</color>
-    <color name="surfaceContainerLow">@color/m3_sys_color_dynamic_light_surface_container_low</color>
-    <color name="surfaceContainerLowest">@color/m3_sys_color_dynamic_light_surface_container_lowest</color>
-    <color name="surfaceContainerHigh">@color/m3_sys_color_dynamic_light_surface_container_high</color>
-    <color name="surfaceContainerHighest">@color/m3_sys_color_dynamic_light_surface_container_highest</color>
+    <color name="surfaceContainerLow">@color/m3_sys_color_dynamic_light_surface_container_low
+    </color>
+    <color name="surfaceContainerLowest">
+        @color/m3_sys_color_dynamic_light_surface_container_lowest
+    </color>
+    <color name="surfaceContainerHigh">@color/m3_sys_color_dynamic_light_surface_container_high
+    </color>
+    <color name="surfaceContainerHighest">
+        @color/m3_sys_color_dynamic_light_surface_container_highest
+    </color>
 
 
     <color name="primary">@color/material_dynamic_primary40</color>

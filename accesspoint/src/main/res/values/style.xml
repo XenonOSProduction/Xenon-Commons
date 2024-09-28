@@ -25,28 +25,6 @@
         <item name="android:windowContentOverlay">@null</item>
     </style>
 
-    <!--    Timepicker     -->
-    <style name="XenonTimePickerStyle" parent="ThemeOverlay.Material3.MaterialTimePicker">
-        <item name="colorSurface">@color/surface</item>
-        <item name="colorOnSurfaceVariant">@color/onSurfaceVariant</item>
-        <item name="colorOnSurface">@color/onSurface</item>
-        <item name="colorPrimary">@color/primary</item>
-        <item name="colorOnPrimary">@color/onPrimary</item>
-        <item name="colorOnPrimaryContainer">@color/onPrimaryContainer</item>
-        <item name="colorPrimaryContainer">@color/primaryContainer</item>
-        <item name="chipStyle">@style/Widget.App.Chip</item>
-    </style>
-
-    <style name="Widget.App.Chip" parent="Widget.MaterialComponents.TimePicker.Display">
-        <item name="android:textColor">@color/shrine_diplay_text_color</item>
-    </style>
-
-    <style name="Widget.App.TimePicker.Clock" parent="Widget.MaterialComponents.TimePicker.Clock">
-        <item name="clockFaceBackgroundColor">@color/onSurface</item>
-        <item name="clockHandColor">@color/primary</item>
-        <item name="clockNumberTextColor">@color/onSurface</item>
-    </style>
-
     <!--    Inputfield      -->
     <style name="XenonInputFilledBox" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
         <item name="android:elevation">0dp</item>
